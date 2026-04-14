@@ -1,0 +1,13 @@
+# Pinned to versions verified on Python 3.10
+# NOTE: llama-index 0.10.x has an import-time typing issue on Python 3.10
+# in some environments; this repo includes a guarded workaround in sitecustomize.py.
+
+deeplake==3.9.27
+python-dotenv==1.0.1
+
+llama-index==0.10.68
+llama-index-readers-wikipedia==0.1.4
+llama-index-vector-stores-deeplake==0.1.6
+
+# Needed by llama-index-llms-openai in this dependency set
+openai==1.40.0
