@@ -1,0 +1,5 @@
+from deeplake_for_github_repo import main
+
+
+if __name__ == "__main__":
+    main()

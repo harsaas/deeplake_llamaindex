@@ -3,9 +3,11 @@
 # in some environments; this repo includes a guarded workaround in sitecustomize.py.
 
 deeplake==3.9.27
+nest-asyncio==1.6.0
 python-dotenv==1.0.1
 
 llama-index==0.10.68
+llama-index-readers-github==0.1.9
 llama-index-readers-wikipedia==0.1.4
 llama-index-vector-stores-deeplake==0.1.6
 
