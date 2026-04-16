@@ -1,5 +1,9 @@
-from deeplake_for_github_repo import main
+from __future__ import annotations
+
+import runpy
+from pathlib import Path
 
 
 if __name__ == "__main__":
-    main()
+    target = Path(__file__).with_name("deeplake_for_github_repo.py")
+    runpy.run_path(str(target), run_name="__main__")
